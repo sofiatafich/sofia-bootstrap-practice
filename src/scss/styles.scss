@@ -10,3 +10,47 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Import partials here
+@import "footer";
+@import "nav";
+
+// Import Google font here
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+
+.jumbotron {
+  background-image: url(../img/pirate-ship.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+  }
+  p {
+    color: white;
+    text-align: center;
+    font-family: Helvetica;
+  }
+}
+
+.caption {
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+h1 {
+  font-family: 'Kaushan Script', cursive;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
